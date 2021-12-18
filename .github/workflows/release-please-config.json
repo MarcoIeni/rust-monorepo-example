@@ -1,0 +1,9 @@
+{
+  "plugins": ["cargo-workspace"],
+  "release-type": "rust",
+  "packages": {
+    "crates/one": {},
+    "crates/two": {},
+    "crates/three": {}
+  }
+}
