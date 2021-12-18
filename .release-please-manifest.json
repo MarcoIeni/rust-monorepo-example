@@ -1,5 +1,4 @@
 {
   "crates/one": "0.1.0",
-  "crates/two": "0.1.0",
   "crates/three": "0.1.0"
 }
