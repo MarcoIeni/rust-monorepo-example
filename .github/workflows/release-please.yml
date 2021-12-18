@@ -11,3 +11,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           command: manifest
+          monorepo-tags: true
