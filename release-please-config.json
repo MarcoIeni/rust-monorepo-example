@@ -1,9 +1,19 @@
 {
   "bootstrap-sha": "47863b8febc8c371be4fd5a739df873786a21ab3",
-  "plugins": ["cargo-workspace"],
+  "plugins": [
+    "cargo-workspace"
+  ],
   "release-type": "rust",
   "packages": {
     "crates/one": {},
-    "crates/three": {}
+    "crates/three": {},
+    ".": {
+      "releaseType": "rust",
+      "draft": false,
+      "bumpMinorPreMajor": false,
+      "bumpPatchForMinorPreMajor": false,
+      "changelogPath": "CHANGELOG.md",
+      "versioning": "default"
+    }
   }
 }
