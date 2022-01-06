@@ -9,6 +9,7 @@
     "crates/three": {},
     ".": {
       "releaseType": "rust",
+      "packageName": "monorepo-example",
       "draft": false,
       "bumpMinorPreMajor": false,
       "bumpPatchForMinorPreMajor": false,
